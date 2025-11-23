@@ -1,37 +1,39 @@
-
-# Word Manager Project
+# Attendance Management System
 
 ## Project Title
-Word Manager – Simple Dictionary Storage Tool
+Attendance Management System
 
 ## Overview of the Project
-This project allows users to store words along with their meanings and tags in a CSV file. Users can add new words, search existing ones, and view the full list. It is a beginner-friendly console application based on Python file handling and CSV processing.
+This project is a simple console-based Attendance Management System that allows users to record, view, and search student attendance. The system stores attendance records in a CSV file and provides essential functionality suitable for beginners learning Python file handling.
 
 ## Features
-- Add new words with meaning and tags  
-- Search for words by name or meaning  
-- Display all saved words  
-- Automatically save and load data from a CSV file  
-- Simple and user-friendly command-line interface  
+- Add/mark student attendance  
+- Display all attendance records  
+- Search attendance by student name  
+- Stores data in a CSV file  
+- Simple and easy-to-use menu system  
 
 ## Technologies/Tools Used
-- Python 3  
+- Python  
 - CSV module  
 - OS module  
-- Time module  
+- Datetime module  
 
 ## Steps to Install & Run the Project
-1. Install Python 3  
-2. Download all project files  
-3. Ensure **words.csv** exists (or will be created automatically)  
-4. Run the program:  
+1. Install Python on your system  
+2. Download the project files  
+3. Place the Python script and `attendance.csv` (if any) in the same folder  
+4. Open a terminal or command prompt  
+5. Run the script using:  
    ```
-   python main.py
+   python filename.py
    ```
 
 ## Instructions for Testing
-1. Add a word  
-2. Search for it  
-3. Display all words  
-4. Exit and restart the program  
-5. Verify the saved data  
+1. Choose **option 1** to mark attendance  
+2. Choose **option 2** to view all stored records  
+3. Choose **option 3** to search for a student  
+4. Verify changes and entries in the CSV file  
+
+## Screenshots
+*(Add your project screenshots here)*  
